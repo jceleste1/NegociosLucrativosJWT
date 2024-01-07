@@ -1,0 +1,27 @@
+# Dados exibidos no endpoint "info" do Actuator
+server.port: 8882
+info:
+  app:
+    groupId: "@project.groupId@"
+    artifactId: "@project.artifactId@"
+    version: "@project.version@"
+    java.version: "@java.version@"
+    
+
+# Porta do servidor
+server:
+  smtp:
+    host_aws: "email-smtp.us-east-1.amazonaws.com"
+    port_aws: "587"
+    username_aws: "AKIARQ6RR5H6JC6PO35Y"
+    password_aws: "BBC3zxogEZxSCjytPLR2EU7dtXLOV2iHxm10XA7k7T95"
+    starttls_aws:  "true"
+    auth_aws: "true"
+    host_vir: "jceleste1.virtuaserver.com.br"
+    port_vir: "587"
+    username_vir: ""
+    password_vir: ""
+    starttls_vir:  "false"
+    auth_vir: "false"
+
+    

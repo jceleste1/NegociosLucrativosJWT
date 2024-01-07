@@ -1,0 +1,13 @@
+# Construir imagem
+docker build -t jceleste/negocioslucrativosjwt:latest .
+
+
+# Push Docker Repositories   
+docker push jceleste/negocioslucrativosjwt:latest
+
+
+# Test Localmente
+ docker run -d -p 83:8080 jceleste/negocioslucrativosjwt:latest
+ 
+# Pull no server da BRFORTE
+docker pull jceleste/negocioslucrativosjwt:latest
