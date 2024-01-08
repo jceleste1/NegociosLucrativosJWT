@@ -13,8 +13,8 @@ server:
   smtp:
     host_aws: "email-smtp.us-east-1.amazonaws.com"
     port_aws: "587"
-    username_aws: "AKIARQ6RR5H6JC6PO35Y"
-    password_aws: "BBC3zxogEZxSCjytPLR2EU7dtXLOV2iHxm10XA7k7T95"
+    username_aws: ""
+    password_aws: ""
     starttls_aws:  "true"
     auth_aws: "true"
     host_vir: "jceleste1.virtuaserver.com.br"
